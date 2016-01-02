@@ -45,14 +45,12 @@ for n in numero {
         print("\(n) Bingo!!!") // Cumplimiento de criterio 9
     }
     // Condicional del criterio 6
-    if n % 2 == 0 && n != 0 {
+    if n % 2 == 0 {
         print("\(n) par!!!")
-    } else if n != 0 { // Condicional del criterio 7
+    } else {
         print("\(n) impar!!!")
-    } else if n == 0 {
-        // Caso sin definir
-        print("\(n)")
     }
+
     // Condicional del criterio 8
     if n >= 30 && n <= 40 {
         print("\(n) Viva Swift!!!")
