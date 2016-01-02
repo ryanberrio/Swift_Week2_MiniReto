@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//: Mini Reto de Semana 2
 
 /*
 Instrucciones
@@ -19,36 +19,41 @@ Debes de usar la interpolación de variables para realizar la impresión de cada
 /*
 
 Review Criteria
-¿El playground se encuentra en GitHub?
-¿El playground está hecho en Swift?
-¿Se genera un rango de 0 a 100?
-¿Se utiliza un ciclo for para iterar los elementos del rango?
-¿Se aplica la regla: “Si el número es divisible entre 5, imprime: # el número  + “Bingo!!!”?
-¿Se aplica la regla: “Si el número es par, imprime: # el número + “par!!!”?
-¿Se aplica la regla: “Si el número es impar, imprime: # el número + “impar!!!”?
-¿Se aplica la regla: “Si el número se encuentra dentro de un rango del 30 al 40, imprime: # el número +  “Viva Swift!!!”?
-¿Se usa la interpolación de variables al imprimir las reglas?
-¿Se muestran los mensajes en la consola?
+1. ¿El playground se encuentra en GitHub?
+2. ¿El playground está hecho en Swift?
+3. ¿Se genera un rango de 0 a 100?
+4. ¿Se utiliza un ciclo for para iterar los elementos del rango?
+5. ¿Se aplica la regla: “Si el número es divisible entre 5, imprime: # el número  + “Bingo!!!”?
+6. ¿Se aplica la regla: “Si el número es par, imprime: # el número + “par!!!”?
+7. ¿Se aplica la regla: “Si el número es impar, imprime: # el número + “impar!!!”?
+8. ¿Se aplica la regla: “Si el número se encuentra dentro de un rango del 30 al 40, imprime: # el número +  “Viva Swift!!!”?
+9. ¿Se usa la interpolación de variables al imprimir las reglas?
+10. ¿Se muestran los mensajes en la consola?
 
 */
 
 import UIKit
 
+// Creación de constante para cumplir criterio 3
 let numero = 0...100
 
+// Ciclo para cumplir criterio 4
 for n in numero {
     
+    // Condicional del criterio 5
     if n % 5 == 0 && n != 0 {
-        print("\(n) Bingo!!!")
+        print("\(n) Bingo!!!") // Cumplimiento de criterio 9
     }
+    // Condicional del criterio 6
     if n % 2 == 0 && n != 0 {
         print("\(n) par!!!")
-    } else if n != 0 {
+    } else if n != 0 { // Condicional del criterio 7
         print("\(n) impar!!!")
     } else if n == 0 {
         // Caso sin definir
         print("\(n)")
     }
+    // Condicional del criterio 8
     if n >= 30 && n <= 40 {
         print("\(n) Viva Swift!!!")
     }

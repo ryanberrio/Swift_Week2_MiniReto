@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		894FD00D1C380B6500AA67B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 894FD00C1C380B6500AA67B4 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8949BA7B1C3804FE002F88E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,10 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8949BA661C3804FE002F88E3 /* week2_miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = week2_miniReto.app; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniReto.app"; sourceTree = "<absolute>"; };
-		8949BA7A1C3804FE002F88E3 /* week2_miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = week2_miniRetoTests.xctest; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniRetoTests.xctest"; sourceTree = "<absolute>"; };
-		8949BA851C3804FE002F88E3 /* week2_miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = week2_miniRetoUITests.xctest; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniRetoUITests.xctest"; sourceTree = "<absolute>"; };
 		8949BA971C38059B002F88E3 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
+		894FD0091C380B4300AA67B4 /* week2_miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2_miniReto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FD00A1C380B4300AA67B4 /* week2_miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2_miniRetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FD00B1C380B4300AA67B4 /* week2_miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2_miniRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FD00C1C380B6500AA67B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +63,11 @@
 		8949BA5D1C3804FE002F88E3 = {
 			isa = PBXGroup;
 			children = (
+				894FD00C1C380B6500AA67B4 /* Default-568h@2x.png */,
 				8949BA681C3804FE002F88E3 /* week2_miniReto */,
+				894FD0091C380B4300AA67B4 /* week2_miniReto.app */,
+				894FD00A1C380B4300AA67B4 /* week2_miniRetoTests.xctest */,
+				894FD00B1C380B4300AA67B4 /* week2_miniRetoUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +96,7 @@
 			);
 			name = week2_miniReto;
 			productName = week2_miniReto;
-			productReference = 8949BA661C3804FE002F88E3 /* week2_miniReto.app */;
+			productReference = 894FD0091C380B4300AA67B4 /* week2_miniReto.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8949BA791C3804FE002F88E3 /* week2_miniRetoTests */ = {
@@ -105,7 +114,7 @@
 			);
 			name = week2_miniRetoTests;
 			productName = week2_miniRetoTests;
-			productReference = 8949BA7A1C3804FE002F88E3 /* week2_miniRetoTests.xctest */;
+			productReference = 894FD00A1C380B4300AA67B4 /* week2_miniRetoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8949BA841C3804FE002F88E3 /* week2_miniRetoUITests */ = {
@@ -123,7 +132,7 @@
 			);
 			name = week2_miniRetoUITests;
 			productName = week2_miniRetoUITests;
-			productReference = 8949BA851C3804FE002F88E3 /* week2_miniRetoUITests.xctest */;
+			productReference = 894FD00B1C380B4300AA67B4 /* week2_miniRetoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -174,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894FD00D1C380B6500AA67B4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +411,7 @@
 				8949BA901C3804FE002F88E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8949BA911C3804FE002F88E3 /* Build configuration list for PBXNativeTarget "week2_miniRetoTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +420,7 @@
 				8949BA931C3804FE002F88E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8949BA941C3804FE002F88E3 /* Build configuration list for PBXNativeTarget "week2_miniRetoUITests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +429,7 @@
 				8949BA961C3804FE002F88E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
