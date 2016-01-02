@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8949BA6A1C3804FE002F88E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949BA691C3804FE002F88E3 /* AppDelegate.swift */; };
-		8949BA6C1C3804FE002F88E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949BA6B1C3804FE002F88E3 /* ViewController.swift */; };
-		8949BA6F1C3804FE002F88E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8949BA6D1C3804FE002F88E3 /* Main.storyboard */; };
-		8949BA711C3804FE002F88E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8949BA701C3804FE002F88E3 /* Assets.xcassets */; };
-		8949BA741C3804FE002F88E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8949BA721C3804FE002F88E3 /* LaunchScreen.storyboard */; };
-		8949BA7F1C3804FE002F88E3 /* week2_miniRetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949BA7E1C3804FE002F88E3 /* week2_miniRetoTests.swift */; };
-		8949BA8A1C3804FE002F88E3 /* week2_miniRetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949BA891C3804FE002F88E3 /* week2_miniRetoUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		8949BA7B1C3804FE002F88E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8949BA661C3804FE002F88E3 /* week2_miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2_miniReto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8949BA691C3804FE002F88E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8949BA6B1C3804FE002F88E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8949BA6E1C3804FE002F88E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8949BA701C3804FE002F88E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8949BA731C3804FE002F88E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8949BA751C3804FE002F88E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8949BA7A1C3804FE002F88E3 /* week2_miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2_miniRetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8949BA7E1C3804FE002F88E3 /* week2_miniRetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2_miniRetoTests.swift; sourceTree = "<group>"; };
-		8949BA801C3804FE002F88E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8949BA851C3804FE002F88E3 /* week2_miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2_miniRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8949BA891C3804FE002F88E3 /* week2_miniRetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2_miniRetoUITests.swift; sourceTree = "<group>"; };
-		8949BA8B1C3804FE002F88E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8949BA661C3804FE002F88E3 /* week2_miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = week2_miniReto.app; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniReto.app"; sourceTree = "<absolute>"; };
+		8949BA7A1C3804FE002F88E3 /* week2_miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = week2_miniRetoTests.xctest; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniRetoTests.xctest"; sourceTree = "<absolute>"; };
+		8949BA851C3804FE002F88E3 /* week2_miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = week2_miniRetoUITests.xctest; path = "/Users/ryanberrio/Desktop/Certificacion iOS/Swift- programar para iOS/evaluacion/week2_miniReto/build/Debug-iphoneos/week2_miniRetoUITests.xctest"; sourceTree = "<absolute>"; };
+		8949BA971C38059B002F88E3 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,51 +59,15 @@
 			isa = PBXGroup;
 			children = (
 				8949BA681C3804FE002F88E3 /* week2_miniReto */,
-				8949BA7D1C3804FE002F88E3 /* week2_miniRetoTests */,
-				8949BA881C3804FE002F88E3 /* week2_miniRetoUITests */,
-				8949BA671C3804FE002F88E3 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		8949BA671C3804FE002F88E3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8949BA661C3804FE002F88E3 /* week2_miniReto.app */,
-				8949BA7A1C3804FE002F88E3 /* week2_miniRetoTests.xctest */,
-				8949BA851C3804FE002F88E3 /* week2_miniRetoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8949BA681C3804FE002F88E3 /* week2_miniReto */ = {
 			isa = PBXGroup;
 			children = (
-				8949BA691C3804FE002F88E3 /* AppDelegate.swift */,
-				8949BA6B1C3804FE002F88E3 /* ViewController.swift */,
-				8949BA6D1C3804FE002F88E3 /* Main.storyboard */,
-				8949BA701C3804FE002F88E3 /* Assets.xcassets */,
-				8949BA721C3804FE002F88E3 /* LaunchScreen.storyboard */,
-				8949BA751C3804FE002F88E3 /* Info.plist */,
+				8949BA971C38059B002F88E3 /* miniReto.playground */,
 			);
 			path = week2_miniReto;
-			sourceTree = "<group>";
-		};
-		8949BA7D1C3804FE002F88E3 /* week2_miniRetoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8949BA7E1C3804FE002F88E3 /* week2_miniRetoTests.swift */,
-				8949BA801C3804FE002F88E3 /* Info.plist */,
-			);
-			path = week2_miniRetoTests;
-			sourceTree = "<group>";
-		};
-		8949BA881C3804FE002F88E3 /* week2_miniRetoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8949BA891C3804FE002F88E3 /* week2_miniRetoUITests.swift */,
-				8949BA8B1C3804FE002F88E3 /* Info.plist */,
-			);
-			path = week2_miniRetoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +158,7 @@
 				Base,
 			);
 			mainGroup = 8949BA5D1C3804FE002F88E3;
-			productRefGroup = 8949BA671C3804FE002F88E3 /* Products */;
+			productRefGroup = 8949BA5D1C3804FE002F88E3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8949BA741C3804FE002F88E3 /* LaunchScreen.storyboard in Resources */,
-				8949BA711C3804FE002F88E3 /* Assets.xcassets in Resources */,
-				8949BA6F1C3804FE002F88E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8949BA6C1C3804FE002F88E3 /* ViewController.swift in Sources */,
-				8949BA6A1C3804FE002F88E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8949BA7F1C3804FE002F88E3 /* week2_miniRetoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8949BA8A1C3804FE002F88E3 /* week2_miniRetoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +229,6 @@
 			targetProxy = 8949BA861C3804FE002F88E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8949BA6D1C3804FE002F88E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8949BA6E1C3804FE002F88E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8949BA721C3804FE002F88E3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8949BA731C3804FE002F88E3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8949BA8C1C3804FE002F88E3 /* Debug */ = {
